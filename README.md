@@ -16,9 +16,15 @@ The Student Registration System is a web-based application designed to manage st
 
 ## Team Roles
 - Requirements Analyst
+  Ian Bwalei,Titus Kaibos
 - System Designer
+  Brian Some, Gilbert Kemboi
 - Jira Project Manager
+  Anold Muriithi,Alvin Ng'ang'a
 - Documentation Lead
+  Ivy Chepkurui, Pauline Wambete
+- UML diagrams
+  Abigael Cherotich,Gloria Chepchumba
 
 ## Project Repository URL
 https://github.com/anold589/student-registration-system
