@@ -1,0 +1,40 @@
+use of 3 tier system architecture 
+This architecture separates the system into three distinct layers to ensure it is scalable and easy to maintain, which is a key goal of the "Design phase" of the SDLC.
+
+Tier 1: Presentation Layer (Frontend)
+This is the user interface where the three primary user roles interact with the system:
+
+Student Portal: For browsing courses and enrolling.
+
+Lecturer Interface: For managing course details and viewing student lists.
+
+Admin Dashboard: For system oversight and user management.
+
+Tier 2: Application Layer (Backend/Logic)
+This "brain" of the system processes the business rules. For your specific project, it should includes:
+Authentication Module: Validates logins for all user types.
+Enrollment Engine: Manages the logic for students registering for courses.
+Course Management Service: Allows lecturers to update course data.
+Report Generator: Allows admins to view academic records and system efficiency.
+
+Tier 3: Data Layer (Database)
+This is the static structure of your system's data. It should stores:
+User Tables: Credentials and profiles for students, lecturers, and admins.
+Academic Tables: Course catalogs, department info, and credit hours.
+Transaction Tables: Enrollment records linking students to specific courses.
+
+2. Mapping Architecture to Your UML Requirements
+To fulfill Phase 4 of your assignment, your team will need to translate this architecture into the following diagrams:
+Class Diagram (Static Structure): Use this to design the 8-12 key entities (like Student, Course, Enrollment) and their relationships.
+Sequence Diagram (Interaction): Use this to show the message flow between the UI, the Application Logic, and the Database for a specific user story, such as "Student logs in".
+Activity Diagram (Process Flow): Use this to model a complex workflow, such as the step-by-step process of "Course Enrollment".
+Use Case Diagram (System Boundaries): Define the system boundaries and show how the different actors (Student, Lecturer, Admin) interact with major functions.
+
+3. Proposed Technology Stack
+
+Frontend: HTML5, CSS3, and JavaScript (React or Vue.js).
+
+Backend: Node.js, Python (Django), or Java (Spring).
+
+
+Database: Relational Database Management System (RDBMS) like MySQL or PostgreSQL, as these are best for managing the structured relationships between students and courses
