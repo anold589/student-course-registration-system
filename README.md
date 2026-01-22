@@ -13,7 +13,6 @@
 10. Ivy Chekurui- E020-01-0905/2023
 ## Project Description
 The Student Registration System is a web-based application designed to manage student enrollment and course registration processes. Students can register and enroll in available courses, lecturers can manage course details and view enrolled students, and administrators can oversee the entire system. The system aims to improve efficiency, accuracy, and accessibility of academic records.
-
 ## Team Roles
 - Requirements Analyst
   Ian Bwalei,Titus Kaibos
