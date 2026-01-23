@@ -1,0 +1,31 @@
+System Modules
+
+Authentication: Manages login, roles, and permissions for students, lecturers, and admins.
+
+Course Management (Projects): Create and manage courses as JIRA projects with tasks/assignments.
+
+Registration: Enroll students by adding users to course/projects with specific roles.
+
+Reports: Dashboards and analytics to track progress and performance.
+
+
+Main Classes/Entities
+
+Student: Enrolls in courses, views assignments, tracks progress.
+
+Course (Project): Holds assignments/tasks and enrolled students.
+
+Lecturer: Creates and manages courses, posts assignments, views reports.
+
+Admin: Manages users, roles, courses, and system settings.
+
+
+Relationships
+
+Student ↔ Course: Many-to-many (students join multiple courses; courses have many students).
+
+Lecturer ↔ Course: One-to-many (one lecturer teaches many courses).
+
+Admin ↔ All: One-to-many (admin oversees users and courses).
+
+Course ↔ Reports: One-to-many (each course generates multiple reports)
