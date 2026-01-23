@@ -24,7 +24,7 @@ The Student Registration System is a web-based application designed to manage st
 - Documentation Lead
   Ivy Chepkurui, Pauline Wambete
 - UML diagrams
-  Abigael Cherotich,Gloria Chepchumba
+  Abigael Cherotich,GLORIA Chepchumba
 
 ## Project Repository URL
 https://github.com/anold589/student-course-registration-system
