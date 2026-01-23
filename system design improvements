@@ -1,0 +1,38 @@
+1. System Components & Modules
+
+The system is divided into functional modules that manage specific business processes.
+
+* Authentication Module: Manages secure access for Students, Lecturers, and Admins. It handles login credentials, password encryption (as per Non-Functional Requirements), and role-based access control.
+
+
+* Course Management Module: Provides tools for Lecturers to manage course details and for Admins to create new curriculum entries. It handles the "CRUD" (Create, Read, Update, Delete) operations for the course catalog.
+* Registration/Enrollment Module: The core logic engine that allows students to enroll in available courses. It must validate prerequisites, check for schedule conflicts, and ensure class capacity limits are not exceeded.
+* Reports & Analytics Module: Aggregates data to help Administrators oversee the entire system. It generates student transcripts, enrollment statistics, and lecturer workload reports.
+
+
+2. Relationships & Cardinality
+
+The assignment requires showing how these classes relate through association, inheritance, and composition.
+
+Inheritance (Generalization):** **Student**, **Lecturer**, and **Admin** classes all inherit from the **User** base class, sharing common attributes like `email` and methods like `login()`.
+Association (Many-to-Many):** One **Student** can enroll in many **Courses**, and one **Course** can have many **Students**. This is typically managed through the **Enrollment** class.
+*Cardinality:* `Student` (1..*) <-> (1..*) `Course`.
+One-to-Many Association:** One **Department** offers multiple **Courses**, but a specific **Course** usually belongs to only one **Department**.
+Cardinality:* `Department` (1) <-> (1..*) `Course`.
+Association:** One **Lecturer** is assigned to teach one or more **Courses**.
+Cardinality:* `Lecturer` (1) <-> (1..*) `Course`.
+Aggregation:** A **Semester** contains many **Enrollments**.
+Cardinality:* `Semester` (1) <-> (0..*) `Enrollment`.
+
+
+ Design Checklist 
+
+1. 
+Primary and Foreign Key relationships (e.g., `studentID` in the Enrollment table).
+
+
+2. 
+Data types for every attribute (e.g., `String`, `Integer`, `Boolean`).
+
+
+3. Visibility markers (+ for public, - for private methods).
