@@ -1,0 +1,8 @@
+FR-01: The system shall allow students to create and manage user accounts. 
+FR-02: The system shall authenticate users using a username and password. 
+FR-03: The system shall allow students to register for available courses. 
+FR-04: The system shall prevent students from registering for duplicate courses. 
+FR-05: The system shall allow lecturers to view students enrolled in their courses. 
+FR-06: The system shall allow administrators to create, update, and delete courses. 
+FR-07: The system shall allow administrators to manage user roles and permissions. 
+FR-08: The system shall generate reports on student enrollment.
