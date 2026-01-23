@@ -25,7 +25,7 @@ Aggregation:** A **Semester** contains many **Enrollments**.
 Cardinality:* `Semester` (1) <-> (0..*) `Enrollment`.
 
 
- Design Checklist 
+ Design Checklist
 
 1. 
 Primary and Foreign Key relationships (e.g., `studentID` in the Enrollment table).
