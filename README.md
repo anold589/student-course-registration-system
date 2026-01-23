@@ -1,6 +1,6 @@
 # Student Registration System
 
-## Group Members
+## GROUP MEMBERS
 1. Anold Muriithi - E020-01-0937/2023
 2. Ian Bwalei - E020-01-1527/2023
 3. Titus Kaibos- E020-01-0927/2023
